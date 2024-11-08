@@ -1,0 +1,45 @@
+/* ------------
+    RESET
+------------ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------
+    GENERAL
+------------ */
+
+.container-large {
+    max-width: 1200px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* --------------
+    TYPOGRAFY
+--------------- */
+
+body {
+    font-family: "Open Sans", serif;
+}
+
+/* -----------
+    HEADER
+------------ */
+
+/* -----------
+    MAIN
+------------ */
+
+/* -----------
+    FOOTER
+------------ */
