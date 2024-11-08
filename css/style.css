@@ -189,6 +189,7 @@ input {
 
 .row {
     display: flex;
+    gap: 40px;
 }
 
 .col .heading {
@@ -198,7 +199,6 @@ input {
 .col {
     max-width: calc(100% / 3);
     min-height: 950px;
-    gap: 50px;
     border: 2px solid lightgrey;
     padding: 0 30px;
 }
@@ -214,10 +214,11 @@ input {
 }
 
 .col li {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     display: flex;
     align-items: baseline;
     gap: 8px;
+    font-size: 14px;
  }
 
 .col h3 {
