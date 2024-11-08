@@ -33,16 +33,34 @@ body {
 }
 
 /* -----------
+    BUTTONS
+------------ */
+
+.btn {
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+.btn-inizia {
+    background-color: #0061fe;
+    font-size: 18px;
+}
+
+/* -----------
     HEADER
 ------------ */
 
 header {
     display: flex;
-    background-color: transparent;
+    background-color: lightcoral;
+    border: 1px solid red;
     height: 80px;
     padding: 30px 20px;
     font-size: 18px;
     align-items: center;
+    justify-content: space-between;
 }
 
 /* --------------
@@ -55,6 +73,23 @@ header {
 }
 
 .nav-left a, ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+/* ----------------
+    HEADER RIGHT
+------------------*/
+
+.nav-right {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-right a, ul {
     display: flex;
     list-style: none;
     color: black;
