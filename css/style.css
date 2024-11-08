@@ -36,6 +36,32 @@ body {
     HEADER
 ------------ */
 
+header {
+    display: flex;
+    background-color: transparent;
+    height: 80px;
+    padding: 30px 20px;
+    font-size: 18px;
+    align-items: center;
+}
+
+/* --------------
+    HEADER LEFT
+----------------*/
+
+.nav-left {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-left a, ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    gap: 40px;
+}
+
 /* -----------
     MAIN
 ------------ */
