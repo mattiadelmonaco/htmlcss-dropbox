@@ -39,6 +39,11 @@ h1 {
     padding-top: 90px;
 }
 
+h2 {
+    font-size: 40px;
+    padding: 60px 0;
+}
+
 /* -----------
     BUTTONS
 ------------ */
@@ -60,6 +65,13 @@ h1 {
     background-color: #0061fe;
     margin: 30px 0;
     font-size: 18px;
+}
+
+.btn-col {
+    background-color: #0061fe;
+    font-size: 18px;
+    width: 100%;
+    margin: 30px 0;
 }
 
 /* -----------
@@ -119,12 +131,17 @@ header {
     MAIN
 ------------ */
 
+#hr-hero {
+    border: 1px solid #f5f5f5;
+}
+
 /* -----------
     HERO
 ------------ */
 
 .hero {
     background-color: #b4d0e6;
+    margin-bottom: 130px;
 }
 
 .hero-left {
@@ -156,6 +173,90 @@ header {
     max-width: 100%;
 }
 
+/* ----------
+    RATES 
+------------*/
+
+.billing {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+input {
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.col .heading {
+    justify-content: center;
+}
+
+.col {
+    max-width: calc(100% / 3);
+    min-height: 950px;
+    gap: 50px;
+    border: 2px solid lightgrey;
+    padding: 0 30px;
+}
+
+.heading {
+    text-align: center;
+    padding: 14px 0;
+    border-bottom: 2px solid lightgrey;
+}
+
+.col ul {
+    display: inline-block;
+}
+
+.col li {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+ }
+
+.col h3 {
+    padding: 20px 0;
+    font-size: 35px;
+}
+
+.when {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: 100;
+    color: grey;
+}
+
+.buy {
+    display: flex;
+    margin-bottom: 40px;
+}
+ .buy a {
+    padding: 0 5px;
+    color: blue;
+ }
+
+ .bottom-col {
+    max-width: 22%;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+ }
+
+ .col h4 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+ }
+
+ .fa-check {
+    color: #0061fe;
+ }
+
+ 
 /* -----------
     FOOTER
 ------------ */
