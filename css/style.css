@@ -331,6 +331,30 @@ input {
     padding-bottom: 25px;
 }
 
+/* ----------------------
+    FOURTH SECTION 
+------------------------ */
+
+.row-fouth-section {
+    max-width: 100%;
+    gap: 50px;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.card-fouth-section {
+    max-width: calc(100% / 3);
+}
+
+.img-fourth-section {
+    max-width: 100%;
+}
+
+.row-fouth-section p {
+    font-size: 18px;
+    padding-top: 35px;
+}
+
 /* -----------
     FOOTER
 ------------ */
