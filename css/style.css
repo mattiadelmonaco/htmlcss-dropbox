@@ -263,7 +263,6 @@ input {
 
 .bottom-col {
     max-width: 22%;
-    color: lightgrey;
     border: 1px solid lightgrey;
 }
 
@@ -378,3 +377,48 @@ input {
 /* -----------
     FOOTER
 ------------ */
+
+footer {
+    background-color: #000;
+}
+
+.col-footer {
+    display: flex;
+    padding: 100px 0;
+    max-width: 100%;
+    gap: 90px;
+}
+
+.col-footer h3 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+.col-footer li {
+    padding: 15px 0;
+}
+
+.col-footer ul {
+    display: inline-block;
+}
+
+.col-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-footer {
+    max-width: 11%;
+    border: 2px solid white;
+}
+
+.selector-language-footer {
+    color: lightgrey;
+    padding: 50px 0;
+}
+
+.fa-earth-americas {
+    padding-right: 10px;
+}
