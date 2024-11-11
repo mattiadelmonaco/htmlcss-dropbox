@@ -480,6 +480,13 @@ footer {
 .col-footer a {
     color: white;
     text-decoration: none;
+    transition: 0.7s;
+    padding: 1px 3px;
+}
+
+.col-footer a:hover {
+    opacity: 1;
+    background-color: #b3b3b34b;
 }
 
 .bottom-footer {
@@ -493,5 +500,17 @@ footer {
 }
 
 .fa-earth-americas {
-    padding-right: 10px;
+    padding-right: 6px;
+}
+
+.selector-language-footer p {
+    cursor: pointer;
+    transition: 0.7s;
+    max-width: max-content;
+    padding: 0 4px;
+}
+
+.selector-language-footer p:hover {
+    opacity: 1;
+    background-color: #b3b3b34b;
 }
