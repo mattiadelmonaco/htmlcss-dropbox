@@ -81,6 +81,12 @@ h2 {
     margin-top: 30px;
 }
 
+.btn-third-section {
+    border: 1px solid black;
+    color: black;
+    font-size: 18px;
+}
+
 /* -----------
     HEADER
 ------------ */
@@ -272,7 +278,7 @@ input {
     min-height: 260px;
     border: 2px solid lightgrey;
     margin-top: 40px;
-    margin-bottom: 110px;
+    margin-bottom: 220px;
  }
 
  .last-col h3 {
@@ -290,6 +296,39 @@ input {
     max-width: 65%;
     padding-bottom: 20px;
     font-size: 14px;
+}
+
+/* ----------------------
+    THIRD SECTION 
+------------------------ */
+
+.container-third-section {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.img-third-section {
+    max-width: 55%;
+}
+
+.text-third-section {
+    max-width: 45%;
+    padding-right: 30px;
+}
+
+.img-third-section {
+    max-width: 100%;
+}
+
+.text-third-section h3 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.text-third-section p {
+    font-size: 18px;
+    padding-bottom: 25px;
 }
 
 /* -----------
