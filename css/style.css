@@ -73,11 +73,23 @@ h2 {
     font-size: 18px;
 }
 
+.btn-hero:hover {
+    opacity: 1;
+    background-color: #4C90FE;
+    transition: 0.7s;
+}
+
 .btn-col {
     background-color: #0061fe;
     font-size: 18px;
     width: 100%;
     margin: 30px 0;
+}
+
+.btn-col:hover {
+    opacity: 1;
+    background-color: #4C90FE;
+    transition: 0.7s;
 }
 
 .btn-last-col {
@@ -87,10 +99,22 @@ h2 {
     margin-top: 30px;
 }
 
+.btn-last-col:hover {
+    opacity: 1;
+    background-color: #4C90FE;
+    transition: 0.7s;
+}
+
 .btn-third-section {
     border: 1px solid black;
     color: black;
     font-size: 18px;
+}
+
+.btn-third-section:hover {
+    opacity: 1;
+    background-color: #bed7ff;
+    transition: 0.7s;
 }
 
 /* -----------
@@ -195,6 +219,13 @@ ul {
 .hero-left a {
     color: black;
     text-decoration: none;
+    padding: 2px 7px;
+    transition: 0.7s;
+}
+
+.hero-left a:hover {
+    opacity: 1;
+    background-color: #98c7eb;
 }
 
 .hero-left i {
@@ -284,6 +315,16 @@ input {
 .buy a {
     padding: 0 5px;
     color: blue;
+    transition: 0.7s;
+}
+
+.buy a:hover {
+    opacity: 1;
+    background-color: #abd0ec4b;
+}
+
+.buy p {
+    padding-right: 2px;
 }
 
 .bottom-col {
@@ -397,6 +438,13 @@ input {
 
 .last-section a {
     color: blue;
+    padding: 0 4px;
+    transition: 0.7s;
+}
+
+.last-section a:hover {
+    opacity: 1;
+    background-color: #abd0ec4b;
 }
 
 /* -----------
