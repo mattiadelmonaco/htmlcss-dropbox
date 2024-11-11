@@ -142,10 +142,11 @@ header li {
 header li:hover {
     opacity: 1;
     background-color: #d1dbfe;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 header li {
-    padding: 0px 10px;
+    padding: 1px 10px;
 }
 
 header img {
@@ -226,6 +227,7 @@ ul {
 .hero-left a:hover {
     opacity: 1;
     background-color: #98c7eb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .hero-left i {
@@ -321,6 +323,7 @@ input {
 .buy a:hover {
     opacity: 1;
     background-color: #abd0ec4b;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .buy p {
@@ -445,6 +448,7 @@ input {
 .last-section a:hover {
     opacity: 1;
     background-color: #abd0ec4b;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* -----------
@@ -487,6 +491,7 @@ footer {
 .col-footer a:hover {
     opacity: 1;
     background-color: #b3b3b34b;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(44, 41, 41, 0.32) 0px 2px 16px 0px;
 }
 
 .bottom-footer {
@@ -513,4 +518,5 @@ footer {
 .selector-language-footer p:hover {
     opacity: 1;
     background-color: #b3b3b34b;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(44, 41, 41, 0.32) 0px 2px 16px 0px;
 }
